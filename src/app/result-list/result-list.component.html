@@ -1,0 +1,13 @@
+<ag-grid-angular
+  style="width: 40rem; height: 24rem;"
+  class="ag-theme-alpine"
+  rowSelection="multiple"
+  [rowData]="rowData"
+  [defaultColDef]="defaultColDef"
+  [columnDefs]="columnDefs"
+  (cellContextMenu)="onCellContextMenu($event)"
+  oncontextmenu="return false;"
+  (gridReady)="onGridReady($event)"
+>
+</ag-grid-angular>
+<div #contextMenuContainer></div>

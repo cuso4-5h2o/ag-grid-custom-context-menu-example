@@ -1,0 +1,27 @@
+.context-menu {
+  display: block;
+  position: absolute;
+  user-select: none;
+}
+
+.context-menu ul {
+  list-style: none;
+  padding: 4px 10px;
+  width: 12rem;
+  height: auto;
+  color: black;
+  background: #f8f8f8;
+  border: 1px solid gray;
+  box-shadow: 0 1px 4px 1px rgb(186 191 199 / 40%);
+}
+
+.context-menu ul li {
+  padding: 0;
+  margin: 0;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.context-menu ul li:hover {
+  background: rgba(33,150,243,0.1);
+}
